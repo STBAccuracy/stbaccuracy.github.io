@@ -40,13 +40,15 @@
     position: relative;
   } 
 
-  .flashabuser {
-    margin-top: 330px;
-    color:rgb(104, 101, 101);
-    font-size: 2px;
-    padding: 0px 0px;
-  }
-
   .insane {
     font-size: 2px;
+  }
+
+  .table {
+    width: 100%;
+  }
+
+  .latest {
+    margin-top: 70px;
+    color:rgb(255, 105, 180);
   }

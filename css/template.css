@@ -1,0 +1,42 @@
+  /* Main content */
+  .main {
+    margin-top: 45px; /* Add a top margin to avoid content overlay */
+    padding-left:10px;
+    color:rgb(0,0,0);
+  } 
+
+  .insane {
+    font-size: 2px;
+  }
+
+  /*==================================================*/
+  /*== NEXT TWO: to only have a line between columns==*/
+  /*==================================================*/
+  .table {
+    width: 100%;
+    border:none;
+    border-collapse: collapse;
+    z-index: -1;
+  }
+
+  table td {
+    border-left: 1px solid #000;
+    border-right: 1px solid #000;
+    
+  }  
+
+  table td:first-child {
+    border-left: none;
+    border-bottom: none;
+  }
+
+  table td:last-child {
+    border-right: none;
+    border-bottom: none;
+  }
+  /*==================================================*/
+
+  .latest {
+    margin-top: 70px;
+    color:rgb(0, 0, 0);
+  }

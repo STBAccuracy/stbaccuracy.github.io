@@ -1,12 +1,12 @@
  /* The navigation bar */
  .menu {
-    overflow: hidden;
-    background-color: rgba(18, 150, 41, 0.815);
-    position: fixed; /* Set the navbar to fixed position */
+  background-color: rgb(19, 150, 41);
+  position: fixed; /* Set the navbar to fixed position */
     top: 0; /* Position the navbar at the top of the page */
     left: 0;
     width: 100%; /* Full width */
-    z-index: 1;
+    z-index: 100000000;
+    list-style-type: none;
   }
   
   /* Links inside the navbar */
@@ -22,33 +22,13 @@
   /* Change background on mouse-over */
   .menu a:hover {
     background: rgb(255, 253, 253);
-    color: rgba(19, 150, 41, 0.815);
+    color: rgb(19, 150, 41);
     opacity : 100%;
   }
-  
+
+  /* The battery acid logo on the header */
   .logo img {
     float: left;
     width: auto;
     height: 52px;
-  }
-
-  /* Main content */
-  .main {
-    margin-top: 70px; /* Add a top margin to avoid content overlay */
-    float: left;
-    padding-left:20px;
-    position: relative;
-  } 
-
-  .insane {
-    font-size: 2px;
-  }
-
-  .table {
-    width: 100%;
-  }
-
-  .latest {
-    margin-top: 70px;
-    color:rgb(255, 105, 180);
   }

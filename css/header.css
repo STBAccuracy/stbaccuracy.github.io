@@ -1,6 +1,6 @@
  /* The navigation bar */
  .menu {
-  background-color: rgb(19, 150, 41);
+  background-color: rgb(0, 0, 0);
   position: fixed; /* Set the navbar to fixed position */
     top: 0; /* Position the navbar at the top of the page */
     left: 0;
@@ -13,7 +13,7 @@
   .menu a {
     float: left;
     display: block;
-    color: #030707;
+    color: #ffffff;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -22,7 +22,7 @@
   /* Change background on mouse-over */
   .menu a:hover {
     background: rgb(255, 253, 253);
-    color: rgb(19, 150, 41);
+    color: rgb(39, 51, 41);
     opacity : 100%;
   }
 
